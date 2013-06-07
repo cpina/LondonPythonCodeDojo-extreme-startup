@@ -17,6 +17,7 @@ def answer():
         answer = str(int(m.group(1)) + int(m.group(2)))
 
     print "Answer:", answer
+    return answer
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
